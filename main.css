@@ -3480,7 +3480,7 @@
             .orion88_demo .orion88_demo-top-right {
                 position: relative;
                 display: grid;
-                grid-template-columns:  auto auto auto auto;
+                grid-template-columns:  auto auto auto;
                 grid-gap: 10px;
                 justify-content: space-evenly;
             }
