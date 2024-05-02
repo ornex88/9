@@ -3371,7 +3371,6 @@ header {
     line-height: 28px;
     letter-spacing: 0.96px;
     text-transform: uppercase;
-    white-space: nowrap;
 }
 
 .orion88_demo .orion88_demo-top-left .orion88_demo-title span {
@@ -3383,6 +3382,7 @@ header {
     line-height: 28px;
     letter-spacing: 0.96px;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .orion88_demo .orion88_demo-top-left label{
