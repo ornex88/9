@@ -3452,11 +3452,11 @@ header {
     position: relative;
     list-style: none;
     padding: 0px ;
-    width: auto;
+    width: 100%;
     height: auto;
     max-height: 120px;
     max-width: 120px;
-    background-color: #25013b;
+    background-color: transparent;
     border-radius: 8px;
     cursor: pointer;
     /* border: 1px solid #ffc800; */
@@ -3471,10 +3471,12 @@ header {
     height: auto;
 }
 
-.orion88_demo .orion88_demo-slot-game-list .orion88_game-item button img {
+
+.orion88_demo .orion88_demo-slot-game-list .orion88_game-item .orion88_game-img img{
     border-radius: 8px;
-    width: 100%;
     height: auto;
+    width: 100%;
+    margin-bottom: 100px;
 }
 
 *::-webkit-scrollbar {
@@ -3536,12 +3538,6 @@ header {
         justify-content: center;
     }
     
-}
-
-.orion88_demo .orion88_demo-slot-game-list .orion88_game-item .orion88_game-img img{
-    height: auto;
-    width: 100%;
-    margin-bottom: 10px;
 }
 
 .orion88_demo .orion88_demo-slot-game-list .orion88_game-item .orion88_game-name {
