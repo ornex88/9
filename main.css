@@ -3455,12 +3455,18 @@ header {
     height: 150px;
     width: 150px;
     background-color: #25013b;
-    border-radius: 30px;
+    border-radius: 8px;
     cursor: pointer;
     /* border: 1px solid #ffc800; */
     white-space: nowrap;
     overflow: hidden;
     margin: 0 auto;
+}
+
+.orion88_demo .orion88_demo-slot-game-list .orion88_game-item button img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
 }
 
 *::-webkit-scrollbar {
