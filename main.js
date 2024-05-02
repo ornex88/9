@@ -61,7 +61,7 @@ if (document.querySelector('.orion88_input-game-name') != null) {
         let l = u.getElementsByTagName("li");
         if (a == 'all'){
             for (i = 0; i < l.length; i++) {
-                n = l[i].getElementsByTagName("div")[1];
+                n = l[i].getElementsByTagName("div")[0];
                 txtValue = n.textContent || n.innerText;
                 if (txtValue.toUpperCase().indexOf(f) > -1) {
                     l[i].style.display = "";
