@@ -2805,6 +2805,7 @@ header {
 
 .orion88_app_top .orion88_app_left *{
     width: 100%;
+    height: auto;
 }
 
 .orion88_app_top .orion88_app_left .orion88_mobile_text {
