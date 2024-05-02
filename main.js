@@ -94,6 +94,8 @@ if (document.querySelectorAll('.orion88_game-item') != null) {
             let l = ''
             if (p == `pg-soft`){
                 l = `https://m.pgsoft-games.com/${i}/index.html?language=id&bet_type=2&operator_token=ca7094186b309ee149c55c8822e7ecf2&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com`
+            }else if (p == `pragmatic-play`) {
+                l = `https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?gameSymbol=${i}&jurisdiction=99&lang=ID&cur=IDR`
             }
             location.href = `${l}`
         })
