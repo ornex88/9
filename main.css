@@ -3463,6 +3463,12 @@ header {
     margin: 0 auto;
 }
 
+.orion88_demo .orion88_demo-slot-game-list .orion88_game-item button{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
 .orion88_demo .orion88_demo-slot-game-list .orion88_game-item button img{
     border-radius: 8px;
     width: 100%;
