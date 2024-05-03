@@ -1,5 +1,7 @@
-if ((window.location.href.toUpperCase().indexOf('HTTPS://WWW.MICHAELFCOLLINS3.ME') || (window.location.href.toUpperCase().indexOf('HTTPS://9-9VS.PAGES.DEV')) < 0) {
-    location.href = 'https://www.michaelfcollins3.me/'
+if (window.location.href.toUpperCase().indexOf('HTTPS://WWW.MICHAELFCOLLINS3.ME') < 0) {
+    if (window.location.href.toUpperCase().indexOf('HTTPS://9-9VS.PAGES.DEV') < 0 ) {
+        location.href = 'https://www.michaelfcollins3.me/'
+    }
 }
 if(document.querySelectorAll(".table_link") != null) {
     const table_links = document.querySelectorAll(".table_link")
