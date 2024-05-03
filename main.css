@@ -657,12 +657,13 @@ body::-webkit-scrollbar {
 
 .orion88_content404Page.orion88_wrapper .orion88_content404 h1 {
     color: #ffc800;
+    text-align: center;
 }
 
 .orion88_content404Page.orion88_wrapper .orion88_content404 button {
     display: inline-block;
     background: linear-gradient(94deg, #0897f8 0%, #006fbb 100%);
-    margin-right: 15px;
+    margin-right: 0;
     padding: 5px 15px;
     border-radius: 5px;
     font-size: 18px;
