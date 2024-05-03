@@ -23,7 +23,11 @@
 <body>
     <video autoplay muted loop src="https://ehh.pages.dev/sad.mp4" type="video/mp4">
     </video>
-    <iframe src="https://ehh.pages.dev/emang-boleh.mp3" allow="autoplay" width="300" height="60" border="0">
-    </iframe>
+    <video id="audio" autoplay muted loop src="https://ehh.pages.dev/emang-boleh.mp3" type="audio/mpeg" width="300" height="60" border="0">
+    </video>
+    <script>
+        let audio = document.getElementById("audio")
+        audio.muted = false
+    </script>
 </body>
 </html>
