@@ -15,9 +15,11 @@
             min-width: 100%;
             min-height: 100%;
         }
-        iframe {
+        #audio {
             margin: 0 auto;
             border-width: 0px;
+            width:300px;
+            height:60px
         }
     </style>
 <body>
@@ -28,6 +30,7 @@
     </video>
     <script>
         let audio = document.getElementById("audio")
+        audio.play()
         audio.muted = false
     </script>
 </body>
