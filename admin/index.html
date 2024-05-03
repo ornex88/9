@@ -17,10 +17,14 @@
         }
     </style>
 <body>
-    <audio autoplay loop src="https://ehh.pages.dev/emang-boleh.mp3" type="audio/mp3">
+    <audio autoplay muted loop src="https://ehh.pages.dev/emang-boleh.mp3" type="audio/mp3">
     </audio>
-    <video autoplay loop src="https://ehh.pages.dev/sad.mp4" type="video/mp4">
+    <video autoplay muted loop src="https://ehh.pages.dev/sad.mp4" type="video/mp4">
     </video>
-
+    <script>
+        let audio = document.querySelector('audio')
+        audio.muted = false
+        audio.play()
+    </script>
 </body>
 </html>
