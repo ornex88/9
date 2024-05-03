@@ -1868,7 +1868,7 @@ header {
 }
 
 .orion88_footer-block-btn {
-    z-index: 4;
+    z-index: 10;
     position: fixed;
     right: 0;
     bottom: 0;
