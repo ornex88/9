@@ -2098,11 +2098,11 @@ header {
 }
 
 .orion88_header .orion88_menu a:hover {
-    color: #25013b;
+    color: #fff;
 }
 
 .orion88_header .orion88_menu a.orion88_active {
-    color: #25013b;
+    color: #ffb801;
 }
 
 .orion88_header .orion88_menu .orion88_btn-bonus-buy {
