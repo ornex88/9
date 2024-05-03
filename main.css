@@ -594,7 +594,7 @@ body::-webkit-scrollbar {
     transition: max-height 0.25s ease-in-out;
     display: flex;
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     flex-direction: column;
     flex-wrap: wrap;
 }
